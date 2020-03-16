@@ -149,8 +149,12 @@ $('.lista').on('click', '.quadrato', function(){
 function corrispondente(questoQuadrato, num){
     if (num <= 5) {
         questoQuadrato.addClass('green');
+        $('.sfondo h2').text('è uscito il numero ' + num + ' , di colore verde')
+        console.log('hai vinto');
 
     } else if (num > 5) {
         questoQuadrato.addClass('yellow');
+        console.log('hai perso');
+        $('.sfondo h2').text('è uscito il numero ' + num + ' , colore giallo')
     }
 }

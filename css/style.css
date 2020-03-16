@@ -48,6 +48,10 @@ body{
     cursor: pointer;
 }
 
+h2{
+    color: white;
+}
+
 .quadrato img{
     width: 50px;
     object-fit: contain;
