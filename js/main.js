@@ -2,112 +2,112 @@
 var quadrati = {
     quadrato:[
         {
-            numero:1
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:2
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:3
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:4
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:5
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:6
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:1
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:2
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:3
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:4
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:5
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:6
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:1
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:2
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:3
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:4
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:5
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:6
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:1
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:2
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:3
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:4
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:5
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:6
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:1
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:2
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:3
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:4
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:5
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:6
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:1
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:2
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:3
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:4
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:5
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         },
         {
-            numero:6
+            img:'https://www.vvox.it/wp-content/uploads/2015/04/punto-di-domanda-845x522.png'
         }
     ]
 };
@@ -148,19 +148,9 @@ $('.lista').on('click', '.quadrato', function(){
 
 function corrispondente(questoQuadrato, num){
     if (num <= 5) {
-
-            questoQuadrato.addClass('green');
+        questoQuadrato.addClass('green');
 
     } else if (num > 5) {
-
-            questoQuadrato.addClass('yellow');
-
+        questoQuadrato.addClass('yellow');
     }
-    }
-
-
-if (true) {
-
-}else {
-
 }

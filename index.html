@@ -13,20 +13,23 @@
     <body>
 
         <div class="sfondo">
+            <h1>Green or yellow?</h1>
+            <img src="https://www.lego.com/r/www/r/catalogs/-/media/catalogs/characters/lbm%20characters/primary/70903_1to1_riddler_360_480.png?l.r=942447265" alt="">
 
+            <div class="container">
+                <ul class="lista">
 
-        <div class="container">
-            <ul class="lista">
+                </ul>
+            </div>
 
-            </ul>
         </div>
 
-        </div>
+
         <script id="template-quadrati" type="text/x-handlebars-template">
                 {{#each quadrato}}
             <li>
                 <div class="quadrato">
-                    <h3>{{numero}}</h3>
+                    <img src="{{img}}">
                 </div>
             </li>
                 {{/each}}
